@@ -14,6 +14,6 @@ log日志显示如图：
 程序销毁后，手机桌面显示为主桌面：
 ！【image](https://github.com/ShenhaiJL/2018118116_Android/blob/master/实验一/图片5.png)
 
-实验一/生命周期注释文件，待完善。。
+实验一/生命周期/注释文件，待完善。。
 
 
