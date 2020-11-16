@@ -1,0 +1,9 @@
+# 2018118116_Android
+2018118116_Android
+活动的四种启动模式：
+启动模式一共有4种：standard,singleTop,singleTask和singleInstance。
+1.standard是活动默认的启动模式，在不进行显式指定的情况下，所有活动都会自动使用这种启动模式。
+2.singleTop：当活动的启动模式指定为singleTop，在启动活动时如果发现返回栈顶已经是该活动，则认为可以直接使用它，不会在创建新的活动实例。
+3.singleTask:当活动模式指定为singleTask，每次启动该活动时，系统首先会在返回栈中检查是否存在该活动的实例，如果发现已经存在则直接使用该实例，
+并把在这个活动上的所有活动统统出栈，如果没有发现就会创建一个新的活动实例。
+4.singleInstance：singleInstance模式的活动会启用一个新的返回栈来管理这个活动。
